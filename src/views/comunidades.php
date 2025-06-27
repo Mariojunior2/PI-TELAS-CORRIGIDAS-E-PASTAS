@@ -10,10 +10,10 @@
             position: fixed;
         }
     </style>
-    <?php include './assets/includes/header.php' ?>
+    <?php include '../assets/includes/header.php' ?>
 </head>
 <body>
-    <?php include './assets/includes/sidebar.php' ?>
+    <?php include '../assets/includes/sidebar.php' ?>
     <div class="content-wrapper">
     <div class="communities-header">
         <h1 class="communities-title">Comunidades</h1>

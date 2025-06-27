@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-include './assets/includes/crud.php';
+include '../assets/includes/notificFunciotions.php';
 
 if (isset($_POST['action'])) {
     $action = $_POST['action'];
@@ -29,7 +29,7 @@ $academicUnreadCount  = countUnread(getNotifications(), 'academic');
 $calendarUnreadCount  = countUnread(getNotifications(), 'calendar');
 $materialsUnreadCount = countUnread(getNotifications(), 'materials');
 
-include './assets/includes/header.php';
+include '../assets/includes/header.php';
 ?>
 
 
@@ -41,13 +41,13 @@ include './assets/includes/header.php';
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Notificações - TydraPI</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
     <!-- Bootstrap Icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
 
@@ -68,7 +68,7 @@ include './assets/includes/header.php';
 </head>
 
 <body>
-    <?php include './assets/includes/sidebar.php' ?>
+    <?php include '../assets/includes/sidebar.php' ?>
     <div class="tydrapi-container py-6 animate-fade-in content-wrapper">
         <div class="flex justify-between items-center mb-6">
             <h1 class="text-2xl font-bold">Notificações</h1>

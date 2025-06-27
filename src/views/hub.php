@@ -31,7 +31,7 @@ $pendingConnections = [
   <style>
 
   </style>
-  <?php include './assets/includes/header.php'; ?>
+  <?php include '../assets/includes/header.php'; ?>
   <style>
     .border-priority-high {
       border-left: 4.8px solid red !important;
@@ -47,7 +47,7 @@ $pendingConnections = [
 <body>
 <div class="d-flex vh-100 w-150">
   <!-- Sidebar -->
-  <?php include './assets/includes/sidebar.php' ?>
+  <?php include '../assets/includes/sidebar.php' ?>
 
   <!-- Main Content -->
   <div class="flex-fill overflow-auto">

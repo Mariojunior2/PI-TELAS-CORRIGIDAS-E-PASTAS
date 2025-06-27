@@ -175,10 +175,10 @@ $current_conversation = $conversations[$active_conversation_id];
             position: fixed;
         }
     </style>
-    <?php include './assets/includes/header.php' ?>
+    <?php include '../assets/includes/header.php' ?>
 </head>
 <body>
-    <?php include './assets/includes/sidebar.php' ?>
+    <?php include '../assets/includes/sidebar.php' ?>
     
     <div class="chat-container">
         <!-- Sidebar/Conversations List -->

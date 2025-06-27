@@ -74,7 +74,7 @@ $activeTab = isset($_GET['tab']) ? $_GET['tab'] : 'account';
     <title>TydraPI - Configurações</title>
     <link rel="stylesheet" href="settings-php.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <?php include './assets/includes/header.php'; ?>
+    <?php include '../assets/includes/header.php'; ?>
     <style>
         .sidebar {
             width: 20%;
@@ -89,7 +89,7 @@ $activeTab = isset($_GET['tab']) ? $_GET['tab'] : 'account';
     </style>
 </head>
 <body>
-<?php include './assets/includes/sidebar.php' ?>
+<?php include '../assets/includes/sidebar.php' ?>
     <div class="settings-container content-wrapper">
         <h1 class="settings-title">Configurações</h1>
         

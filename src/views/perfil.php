@@ -26,10 +26,10 @@
     <script src="https://unpkg.com/lucide@latest"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
 
-    <?php include './assets/includes/header.php' ?>
+    <?php include '../assets/includes/header.php' ?>
 </head>
 <body>
-    <?php include './assets/includes/sidebar.php' ?>
+    <?php include '../assets/includes/sidebar.php' ?>
     <div class="perfil-body content-wrapper">
     <div class="perfil-container perfil-animate-fade-in">
         <div class="perfil-flex perfil-flex-col perfil-md-flex-row perfil-gap-6">
